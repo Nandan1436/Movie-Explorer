@@ -1,12 +1,19 @@
-# React + Vite
+# Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie Explorer is a React application that displays a list of movies fetched from the TMDB (The Movie Database) API. Users can add movies to their favorites list, which will be displayed on a separate page for easy access.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home Page**: Displays a list of movies fetched from the TMDB API.
+- **Favorites Page**: Allows users to add movies to their favorites, which are saved and displayed here.
+- **Add to Favorites**: Users can add movies to their favorites list for easy reference.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**: The core library for building the user interface.
+- **TMDB API**: Used to fetch movie data.
+- **Local Storage**: To persist the list of favorite movies across page reloads.
+
+## Credits
+
+This project was built following the tutorial by [Code Explained](https://www.youtube.com/watch?v=G6D9cBaLViA&t=5411s). It was created as a learning project to get hands-on experience with React.
