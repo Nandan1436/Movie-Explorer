@@ -6,6 +6,7 @@ Movie Explorer is a React application that displays a list of movies fetched fro
 
 - **Home Page**: Displays a list of movies fetched from the TMDB API.
 - **Favorites Page**: Allows users to add movies to their favorites, which are saved and displayed here.
+- **Details Page**: Allows users to view details about a specific movie.
 - **Add to Favorites**: Users can add movies to their favorites list for easy reference.
 
 ## Technologies Used
